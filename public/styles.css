@@ -1,0 +1,32 @@
+/*
+
+colour pallete: #799496, #3A2D32, #C57B57, #ACC196, #E9EB9E
+                 gray     black    orange  l. green  yellow
+
+*/
+
+:root {
+    --bg-color: #2b2729;
+    --accent-color: #C57B57;
+    --accent-color-light: #799496;
+    --text-color: #E9EB9E;
+    --compliment-color: #ACC196;
+    --light-color: #c9c7ba;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    caret-color: transparent;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+

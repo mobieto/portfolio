@@ -1,0 +1,123 @@
+.content {
+    height: calc(100vh - 5rem);
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 14rem 3rem;
+    overflow: hidden;
+    position: relative;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.introText {
+    font-size: 3.5rem;
+}
+
+.nameText {
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+.aboutInfoText {
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.accent {
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+.pronounceText {
+    color: var(--accent-color-light);
+    font-size: 2rem;
+    font-family: 'Cormorant', serif;
+}
+
+.socialPlatforms {
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.socialText {
+    color: var(--accent-color-light);
+    font-size: 1rem;
+}
+
+.socialsContainer {
+    width: 11rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.githubButton, .discordButton, .instagramButton, .linkedinButton {
+    background: none;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 0;
+}
+
+.githubIcon, .discordIcon, .instagramIcon, .linkedinIcon {
+    object-fit: cover;
+    margin: 0 auto;
+    height: 1.7rem;
+    opacity: 0.75;
+    transition: 0.15s;
+}
+
+.githubIcon:hover, .discordIcon:hover, .instagramIcon:hover, .linkedinIcon:hover {
+    opacity: 1;
+}
+
+.downloadCVButton, .contactButton {
+    background: var(--light-color);
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.4rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: var(--bg-color);
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.downloadCVButton:hover, .contactButton:hover {
+   background: #8a8881;
+}
+
+.downloadCVImg, .contactImg {
+    object-fit: cover;
+    margin: 0 0.5rem;
+    height: 1.5rem;
+}
+
+.contactButton {
+    margin-left: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+    .introText {
+        font-size: 16vw;
+        line-height: 16vw;
+    }
+
+    .nameText {
+        font-size: 18vw;
+        line-height: 18vw;
+    }
+
+    .aboutInfoText {
+        font-size: 5vw;
+        line-height: 7vw;
+    }
+
+    .content {
+        width: 35rem;
+    }
+}
