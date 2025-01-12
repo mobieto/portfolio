@@ -16,7 +16,7 @@ export default function Home() {
         <section className={styles.about}>
           <p>
             I’m a computer science student with a passion for cloud solutions & AI.
-            I love coding and learning new technologies.
+            I love coding and learning new technologies. test
           </p>
         </section>
 
