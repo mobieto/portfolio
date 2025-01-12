@@ -90,3 +90,44 @@
     flex-direction: column;
   }
 }
+
+.about {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  color: #000;
+}
+
+.about p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.imageSection {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.profileImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: inherit;
+}
